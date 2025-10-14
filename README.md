@@ -19,8 +19,6 @@ The website includes dedicated sections for:
 - **Awards** — Recognitions and achievements  
 - **Contact** — Let’s connect and collaborate  
 
----
-
 ## 🛠️ Tech Stack
 
 | Category | Technologies |
@@ -32,8 +30,6 @@ The website includes dedicated sections for:
 | **Deployment** | Vercel / GitHub Pages |
 | **Version Control** | Git + GitHub |
 
----
-
 ## 💡 Key Features
 
 - ⚡ **Blazing Fast** – Built with Next.js Turbopack for optimized performance  
@@ -42,8 +38,6 @@ The website includes dedicated sections for:
 - 🧩 **Modular Codebase** – Clean, maintainable, and scalable components  
 - 🔍 **SEO Optimized** – Metadata, OpenGraph, and structured tags for visibility  
 - ☁️ **Deployed on Vercel** – Instant continuous deployment from GitHub  
-
----
 
 ## 🧩 Folder Structure
 
