@@ -5,7 +5,7 @@ const skillCategories = [
     icon: "",
     skills: [
       { name: 'Python', icon: '/logos/python.png', fontSize: 20 },
-      { name: 'R', icon: '/logos/R.jpg', fontSize: 18 },
+      { name: 'R', icon: '/logos/r.png', fontSize: 18 },
       { name: 'Java', icon: '/logos/java.webp', fontSize: 18 },
       { name: 'C++', icon: '/logos/c++.png', fontSize: 18 },
       { name: 'SQL', icon: '/logos/sql.jpg', fontSize: 18 },
@@ -26,7 +26,7 @@ const skillCategories = [
       { name: 'Scikit-learn', icon: '/logos/scikitlearn.png', fontSize: 18 },
       { name: 'OpenCV', icon: '/logos/opencv.png', fontSize: 18 },
       { name: 'HuggingFace', icon: '/logos/huggingface.png', fontSize: 18 },
-      { name: 'LLMs', icon: '/logos/llm.jpg', fontSize: 18 },
+      { name: 'LLMs', icon: '/logos/llm.png', fontSize: 18 },
     ],
   },
   {
