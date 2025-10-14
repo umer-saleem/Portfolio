@@ -9,7 +9,7 @@ const education = [
     institution: "Northeastern University",
     degree: "M.S. in Artificial Intelligence",
     period: "2025 - Present",
-    description: "Specialized in machine learning, statistical modeling, and big data technologies. Thesis on 'Deep Learning for Medical Diagnosis'.",
+    description: "",
     courses: ["Foundations of Artificial Intelligence", "Algorithms", "Machine Learning",
       "Programming Design Paradigm"],
     logo: "/logos/nu-logo.png", 
@@ -19,7 +19,7 @@ const education = [
     institution: "University of Oulu",
     degree: "M.S. in Computer Science and Engineering",
     period: "2021 - 2023",
-    description: "Minor in Statistics. Graduated with honors. President of Data Science Club.",
+    description: "",
     courses: ["Natural Language Processing and Text Mining", "Towards Data Mining",
       "Machine Vision", "Machine Learning", "Computer Graphics", "Affective Computing", 
       "Deep Learning","Big Data Processing and Applications"],
@@ -30,7 +30,7 @@ const education = [
     institution: "National University of Sciences and Technology",
     degree: "B.E. in Computer Engineering",
     period: "2013 - 2017",
-    description: "Advanced data analysis, visualization, and R programming certification. Hands-on projects with real-world datasets.",
+    description: "",
     courses: ["Object-Oriented Programming", "Algorithms and Computing", "Data Structures", "Database Engineering",  
       "Digital Image Processing", "Digital Signal Processing", 
       "Artificial Intelligence and Decision Suport System"],
@@ -45,7 +45,9 @@ export default function Education() {
   return (
     <section id="education" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4 max-w-6xl">
-        <h2 className="text-5xl font-bold text-center mb-16 text-gray-800">Education</h2>
+        <h2 className="text-5xl font-bold text-center mb-16 text-gray-800">
+          EducationHMy  Journey
+          </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {education.map((edu, index) => (
