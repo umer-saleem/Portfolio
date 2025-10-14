@@ -5,9 +5,9 @@ import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 const socialLinks = [
-  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/umersaleem1/', icon: '/logos/linkedin.PNG' },
-  { name: 'GitHub', url: 'https://github.com/umer-saleem', icon: '/logos/github.PNG' },
-  { name: 'Email', url: 'mailto:umersaleem64200@hotmail.com', icon: '/logos/email.PNG' },
+  { name: 'LinkedIn', url: 'https://www.linkedin.com/in/umersaleem1/', icon: '/logos/linkedin.png' },
+  { name: 'GitHub', url: 'https://github.com/umer-saleem', icon: '/logos/github.png' },
+  { name: 'Email', url: 'mailto:umersaleem64200@hotmail.com', icon: '/logos/email.png' },
 ];
 
 export default function Contact() {
