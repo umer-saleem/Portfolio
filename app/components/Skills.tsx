@@ -34,10 +34,10 @@ const skillCategories = [
     icon: "",
     skills: [
       { name: 'Tableau', icon: '/logos/tableau.png', fontSize: 18 },
-      { name: 'Power BI', icon: '/logos/powerbi.PNG', fontSize: 18 },
-      { name: 'Matplotlib', icon: '/logos/matplotlib.PNG', fontSize: 18 },
+      { name: 'Power BI', icon: '/logos/powerbi.png', fontSize: 18 },
+      { name: 'Matplotlib', icon: '/logos/matplotlib.png', fontSize: 18 },
       { name: 'Seaborn', icon: '/logos/seaborn.SVG', fontSize: 18 },
-      { name: 'Plotly', icon: '/logos/plotly.PNG', fontSize: 18 },
+      { name: 'Plotly', icon: '/logos/plotly.png', fontSize: 18 },
     ],
   },
   {
