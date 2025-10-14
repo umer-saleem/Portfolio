@@ -6,12 +6,8 @@
 Welcome to the official repository of my **personal portfolio website**, a modern, responsive platform built to showcase my journey in **Data Science**, **Artificial Intelligence**, and **Software Engineering**.  
 Built using **Next.js**, **Tailwind CSS**, and **Node.js**, it highlights my work, publications, and professional milestones in a visually elegant format.
 
----
-
 ## 🚀 Live Portfolio
 🔗 **[Visit Website](https://umer.vercel.app)** — Explore my portfolio in action.
-
----
 
 ## 🧠 Overview
 
