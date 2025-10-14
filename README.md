@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio
 
-## Getting Started
+Welcome to the official repository of my **personal portfolio website**, a modern, responsive platform built to showcase my journey in **Data Science**, **Artificial Intelligence**, and **Software Engineering**.  
+Built using **Next.js**, **Tailwind CSS**, and **Node.js**, it highlights my work, publications, and professional milestones in a visually elegant format.
 
-First, run the development server:
+## 🚀 Live Portfolio
+🔗 **[Visit Website](https://umer.vercel.app)** — Explore my portfolio in action.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🧠 Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This portfolio represents a fusion of **design simplicity** and **technical depth**, created with the goal of delivering a smooth, performance-optimized, and aesthetically minimal interface.  
+The website includes dedicated sections for:
+- **About Me** — My background, philosophy, and expertise  
+- **Projects** — Research, academic, and professional highlights  
+- **Skills** — Core technical and analytical competencies  
+- **Awards** — Recognitions and achievements  
+- **Contact** — Let’s connect and collaborate  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Category | Technologies |
+|-----------|---------------|
+| **Frontend Framework** | [Next.js 15](https://nextjs.org/) |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com/) |
+| **Language** | TypeScript / JavaScript (ES6+) |
+| **Build Tool** | Turbopack |
+| **Deployment** | Vercel / GitHub Pages |
+| **Version Control** | Git + GitHub |
 
-## Learn More
+## 💡 Key Features
 
-To learn more about Next.js, take a look at the following resources:
+- ⚡ **Blazing Fast** – Built with Next.js Turbopack for optimized performance  
+- 🎨 **Responsive UI** – Fully adaptive across desktop, tablet, and mobile  
+- 🧭 **Smooth Navigation** – Scroll-based transitions with minimal latency  
+- 🧩 **Modular Codebase** – Clean, maintainable, and scalable components  
+- 🔍 **SEO Optimized** – Metadata, OpenGraph, and structured tags for visibility  
+- ☁️ **Deployed on Vercel** – Instant continuous deployment from GitHub  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
