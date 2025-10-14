@@ -11,21 +11,7 @@ const experiences = [
       "Applied exploratory data analysis (EDA) on structured and unstructured citizen-science based data, uncovering trends and anomalies to guide water quality ML models.",
     ],
     skills: [
-      "Python",
-      "Flutter",
-      "Dart",
-      "Android",
-      "OpenCV",
-      "Firebase",
-      "Google Cloud Platform",
-      "NumPy",
-      "Pandas",
-      "Matplotlib",
-      "Image Processing",
-      "Remote Sensing",
-      "Machine Learning",
-      "EDA",
-      "Computer Vision",
+      "Python","Flutter","Dart","Android","OpenCV","Firebase","Google Cloud Platform","NumPy","Pandas","Matplotlib","Image Processing","Remote Sensing","Machine Learning","EDA","Computer Vision",
     ],
   },
   {
@@ -37,22 +23,7 @@ const experiences = [
       "Applied supervised learning with ResNet50 to analyze 2D spectrograms from noisy PPG signals, regressing heart rate for wearable health monitoring applications using the PPG-DaLiA dataset, a benchmark in mobile health research.",
     ],
     skills: [
-      "Python",
-      "R",
-      "NumPy",
-      "Pandas",
-      "Matplotlib",
-      "Scikit-learn",
-      "TensorFlow",
-      "Keras",
-      "ResNet50",
-      "CNN",
-      "U-Net",
-      "Deep Learning",
-      "Signal Processing",
-      "Model Evaluation",
-      "Statistical Analysis",
-      "Data Visualization",
+      "Python","R","NumPy","Pandas","Matplotlib","Scikit-learn","TensorFlow","Keras","ResNet50","CNN","U-Net","Deep Learning","Signal Processing","Model Evaluation","Statistical Analysis","Data Visualization",
     ],
   },
   {
@@ -63,17 +34,7 @@ const experiences = [
       "Fine-tuned transformer-based models (BERT and T5) for summarization and generative text tasks leveraging Hugging Face on Common Crawl datasets, enhancing user retention and reducing plagiarism for a news aggregation platform.",
     ],
     skills: [
-      "Python",
-      "PyTorch",
-      "Hugging Face Transformers",
-      "BERT",
-      "T5",
-      "NLP",
-      "Text Summarization",
-      "Generative AI",
-      "Fine-tuning",
-      "Scikit-learn",
-      "Machine Learning",
+      "Python","PyTorch","Hugging Face Transformers","BERT","T5","NLP","Text Summarization","Generative AI","Fine-tuning","Scikit-learn","Machine Learning",
     ],
   },
   {
@@ -84,17 +45,7 @@ const experiences = [
       "Leveraged SQL queries and Power BI to extract, transform, and visualize e-commerce datasets, producing insights that improved customer segmentation and targeting strategies.",
     ],
     skills: [
-      "SQL",
-      "Python",
-      "Pandas",
-      "Power BI",
-      "Tableau",
-      "Excel",
-      "Data Cleaning",
-      "ETL",
-      "Data Visualization",
-      "Customer Segmentation",
-      "Analytical Reporting",
+      "SQL","Python","Pandas","Power BI","Tableau","Excel","Data Cleaning","ETL","Data Visualization","Customer Segmentation","Analytical Reporting",
     ],
   },
   {
@@ -108,23 +59,7 @@ const experiences = [
       "Adapted Flask API deployment to new operating system (Linux RedHat) and guided external partners through step-by-step technical implementations, demonstrating adaptability, problem-solving, and clear technical communication.",
     ],
     skills: [
-      "Python",
-      "TensorFlow",
-      "Keras",
-      "Scikit-learn",
-      "Flask",
-      "AWS Lambda",
-      "AWS RDS",
-      "InfluxDB",
-      "Tableau",
-      "TuriCreate",
-      "OpenCV",
-      "Deep Learning",
-      "Data Pipelines",
-      "Cloud Computing",
-      "API Development",
-      "Model Deployment",
-      "Computer Vision",
+      "Python","TensorFlow","Keras","Scikit-learn","Flask","AWS Lambda","AWS RDS","InfluxDB","Tableau","TuriCreate","OpenCV","Deep Learning","Data Pipelines","Cloud Computing","API Development","Model Deployment","Computer Vision",
     ],
   },
 ];
@@ -137,18 +72,18 @@ export default function Experience() {
           My Professional Journey
         </h2>
 
-        <div className="space-y-12">
+        <div className="space-y-12 relative">
           {experiences.map((exp, index) => (
-            <div key={index} className="flex flex-col md:flex-row gap-8">
-              {/* Timeline dot and line */}
-              <div className="hidden md:flex flex-col items-center">
-                <div className="w-4 h-4 bg-blue-600 rounded-full"></div>
-                {index !== experiences.length - 1 && (
-                  <div className="w-0.5 h-24 bg-gray-300 mt-2"></div>
-                )}
+            <div key={index} className="flex flex-col md:flex-row gap-8 relative">
+              
+              {/* Timeline dot and continuous line */}
+              <div className="hidden md:flex flex-col items-center relative">
+                {/* Always show line below dot */}
+                <div className="w-4 h-4 bg-blue-600 rounded-full z-10"></div>
+                <div className="w-0.5 flex-1 bg-gray-300 mt-2"></div>
               </div>
 
-              {/* Content box (styled like project cards) */}
+              {/* Content Box (same style as project cards) */}
               <div
                 className="flex-1 bg-white rounded-xl border border-gray-300 shadow-md overflow-hidden 
                            hover:shadow-2xl hover:scale-[1.03] transform transition-all duration-300 ease-in-out p-8"
@@ -170,14 +105,9 @@ export default function Experience() {
                 {/* Bullet Points */}
                 <ul className="space-y-2 mb-6">
                   {exp.descriptions.map((point, i) => (
-                    <li
-                      key={i}
-                      className="flex items-start space-x-2 text-gray-700"
-                    >
+                    <li key={i} className="flex items-start space-x-2 text-gray-700">
                       <Disc className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                      <span className="leading-relaxed text-justify">
-                        {point}
-                      </span>
+                      <span className="leading-relaxed text-justify">{point}</span>
                     </li>
                   ))}
                 </ul>
