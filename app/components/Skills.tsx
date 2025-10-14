@@ -33,7 +33,7 @@ const skillCategories = [
     title: "Data Visualization",
     icon: "",
     skills: [
-      { name: 'Tableau', icon: '/logos/tableau.PNG', fontSize: 18 },
+      { name: 'Tableau', icon: '/logos/tableau.png', fontSize: 18 },
       { name: 'Power BI', icon: '/logos/powerbi.PNG', fontSize: 18 },
       { name: 'Matplotlib', icon: '/logos/matplotlib.PNG', fontSize: 18 },
       { name: 'Seaborn', icon: '/logos/seaborn.SVG', fontSize: 18 },
