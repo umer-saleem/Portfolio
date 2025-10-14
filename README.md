@@ -39,19 +39,5 @@ The website includes dedicated sections for:
 - 🔍 **SEO Optimized** – Metadata, OpenGraph, and structured tags for visibility  
 - ☁️ **Deployed on Vercel** – Instant continuous deployment from GitHub  
 
-## 🧩 Folder Structure
 
-my-data-science-portfolio/
-│
-├── app/ # Next.js App Router structure
-│ ├── components/ # Reusable React components (About, Skills, etc.)
-│ ├── globals.css # Tailwind global styles
-│ ├── layout.tsx # Root layout component
-│ └── page.tsx # Home page content
-│
-├── public/ # Static assets (images, icons, favicon)
-├── next.config.js # Next.js configuration
-├── tailwind.config.js # Tailwind CSS configuration
-├── package.json # Scripts and dependencies
-└── README.md # Project documentation
 
