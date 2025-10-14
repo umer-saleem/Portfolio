@@ -10,7 +10,7 @@ const awards = [
     name: "Alfond Scholars Initiative Scholarship",
     description:
       "Awarded the prestigious Alfond Scholars Initiative Scholarship valued at $25,000 as an international student of the MS in Artificial Intelligence program at Northeastern University. This competitive merit-based scholarship recognizes exceptional academic performance, leadership potential, and commitment to leveraging AI for societal impact.",
-    iconUrl: "/logos/nu-logo.PNG",
+    iconUrl: "/logos/nu-logo.png",
   },
 ];
 
