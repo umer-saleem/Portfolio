@@ -68,32 +68,27 @@ export default function Projects() {
                   {project.description}
                 </p>
 
-                {/* Tools */}
-                {project.tools.length > 0 && (
+                {/* Combined Skills & Tools (skills first, then tools) */}
+                {(project.skills.length > 0 || project.tools.length > 0) && (
                   <>
-                    <h4 className="font-semibold text-gray-800 mb-2">Tools</h4>
+                    <h4 className="font-semibold text-gray-800 mb-2">Skills & Tools</h4>
                     <div className="flex flex-wrap gap-2 mb-4">
+
+                      {/* Then show all tools */}
                       {project.tools.map((tool, i) => (
                         <span
-                          key={i}
+                          key={`tool-${i}`}
                           className="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full"
                         >
                           {tool}
                         </span>
                       ))}
-                    </div>
-                  </>
-                )}
 
-                {/* Skills */}
-                {project.skills.length > 0 && (
-                  <>
-                    <h4 className="font-semibold text-gray-800 mb-2">Skills</h4>
-                    <div className="flex flex-wrap gap-2 mb-4">
+                      {/* First show all skills */}
                       {project.skills.map((skill, i) => (
                         <span
-                          key={i}
-                          className="bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full"
+                          key={`skill-${i}`}
+                          className="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full"
                         >
                           {skill}
                         </span>
