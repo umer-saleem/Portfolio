@@ -24,6 +24,7 @@ const skillCategories = [
       { name: 'PyTorch', icon: '/logos/pytorch.png', fontSize: 18 },
       { name: 'Keras', icon: '/logos/keras.png', fontSize: 18 },
       { name: 'LangGraph', icon: '/logos/langgraph.png', fontSize: 18 },
+      { name: 'LangChain', icon: '/logos/langchain.png', fontSize: 18 },
       { name: 'Scikit-learn', icon: '/logos/scikitlearn.png', fontSize: 18 },
       { name: 'OpenCV', icon: '/logos/opencv.png', fontSize: 18 },
       { name: 'HuggingFace', icon: '/logos/huggingface.png', fontSize: 18 },
