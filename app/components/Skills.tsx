@@ -23,7 +23,7 @@ const skillCategories = [
       { name: 'TensorFlow', icon: '/logos/tensorflow.png', fontSize: 18 },
       { name: 'PyTorch', icon: '/logos/pytorch.png', fontSize: 18 },
       { name: 'Keras', icon: '/logos/keras.png', fontSize: 18 },
-      { name: 'LangGraph', icon: '/logos/langgraph.png', fontSize: 20 },
+      { name: 'LangGraph', icon: '/logos/langgraph.png', fontSize: 18 },
       { name: 'Scikit-learn', icon: '/logos/scikitlearn.png', fontSize: 18 },
       { name: 'OpenCV', icon: '/logos/opencv.png', fontSize: 18 },
       { name: 'HuggingFace', icon: '/logos/huggingface.png', fontSize: 18 },
@@ -98,7 +98,7 @@ function SkillItem({
 }) {
   return (
     <div className="inline-flex items-center space-x-2 bg-gray-100 px-3 py-2 rounded-lg whitespace-nowrap">
-      <div className="w-8 h-8 flex items-center justify-center flex-shrink-0">
+      <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
         <img
           src={skill.icon}
           alt={skill.name}
