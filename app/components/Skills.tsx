@@ -99,7 +99,7 @@ function SkillItem({
 }) {
   return (
     <div className="inline-flex items-center space-x-2 bg-gray-100 px-3 py-2 rounded-lg whitespace-nowrap">
-      <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
+      <div className="w-8 h-8 flex items-center justify-center flex-shrink-0">
         <img
           src={skill.icon}
           alt={skill.name}
