@@ -22,7 +22,7 @@ const projects = [
     highlightedWord: "Bigram LM",
     thumbnailUrl: "/logos/bigram_logo.png",
     description:
-      "Developed a character-level bigram model using PyTorch to generate novel names based on a training dataset of names. The project involves preprocessing text, computing bigram co-occurrence probabilities, sampling new sequences, and evaluating the model using negative log-likelihood on a held-out test set.",
+      "Built a character-level bigram model in PyTorch to generate novel names by preprocessing text, computing bigram probabilities, sampling new sequences, and evaluating performance with negative log-likelihood on a test set.",
     tools: [
       "Python","PyTorch",
     ],
