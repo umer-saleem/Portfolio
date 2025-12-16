@@ -59,11 +59,11 @@ export default function Projects() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="w-full h-[90px] overflow-hidden rounded-lg mb-4 shadow-md hover:shadow-lg transition-shadow">
+                    <div className="w-full h-96 overflow-hidden rounded-lg mb-4 shadow-md hover:shadow-lg transition-shadow">
                       <img
                         src={project.thumbnailUrl}
                         alt={`${project.title} Thumbnail`}
-                        className="w-full h-full object-contain"
+                        className="w-full h-full object-cover"
                       />
                     </div>
                   </a>
