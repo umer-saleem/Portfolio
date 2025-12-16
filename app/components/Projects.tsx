@@ -59,11 +59,13 @@ export default function Projects() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img
-                      src={project.thumbnailUrl}
-                      alt={`${project.title} Thumbnail`}
-                      className="w-full h-auto rounded-lg mb-4 shadow-md hover:shadow-lg transition-shadow"
-                    />
+                    <div className="w-full h-48 overflow-hidden rounded-lg mb-4 shadow-md hover:shadow-lg transition-shadow">
+                      <img
+                        src={project.thumbnailUrl}
+                        alt={`${project.title} Thumbnail`}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
                   </a>
                 )}
 
@@ -71,7 +73,7 @@ export default function Projects() {
                 <h3 className="text-2xl font-bold mb-3 text-gray-800">
                   {project.highlightedWord ? (
                     <>
-                      <span className="italic text-black-600">{project.highlightedWord}</span>{" "}
+                      <span className="italic text-black">{project.highlightedWord}</span>{" "}
                       - {project.title}
                     </>
                   ) : (
@@ -84,13 +86,11 @@ export default function Projects() {
                   {project.description}
                 </p>
 
-                {/* Combined Skills & Tools (skills first, then tools) */}
+                {/* Combined Skills & Tools */}
                 {(project.skills.length > 0 || project.tools.length > 0) && (
                   <>
                     <h4 className="font-semibold text-gray-800 mb-2">Skills & Tools</h4>
                     <div className="flex flex-wrap gap-2 mb-4">
-
-                      {/* Then show all tools */}
                       {project.tools.map((tool, i) => (
                         <span
                           key={`tool-${i}`}
@@ -99,8 +99,6 @@ export default function Projects() {
                           {tool}
                         </span>
                       ))}
-
-                      {/* First show all skills */}
                       {project.skills.map((skill, i) => (
                         <span
                           key={`skill-${i}`}
