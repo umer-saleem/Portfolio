@@ -17,6 +17,22 @@ const projects = [
     githubUrl: "https://github.com/umer-saleem/Aqua-Lens",
     demoUrl: "https://drive.google.com/file/d/1rDdgh_wSOelChDrzyxw3HYc7-7qrE1L9/view?usp=sharing",
   },
+  {
+    title: "Bigram Language Model for Name Generation",
+    highlightedWord: "Bigram LM",
+    thumbnailUrl: "",
+    description:
+      "Developed a character-level bigram model using PyTorch to generate novel names based on a training dataset of names. The project involves preprocessing text, computing bigram co-occurrence probabilities, sampling new sequences, and evaluating the model using negative log-likelihood on a held-out test set.",
+    tools: [
+      "Python","PyTorch",
+    ],
+    skills: [
+      "Natural Language Processing (NLP)", "Language Modeling", "Probability & Statistics",
+      "Sequence Generation", "Text Preprocessing", "Negative Log-Likelihood",
+    ],
+    githubUrl: "https://github.com/umer-saleem/bigramnamegeneration.git",
+    demoUrl: "",
+  },
 ];
 
 export default function Projects() {
