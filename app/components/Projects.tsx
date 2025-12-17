@@ -18,22 +18,39 @@ const projects = [
     demoUrl: "https://drive.google.com/file/d/1rDdgh_wSOelChDrzyxw3HYc7-7qrE1L9/view?usp=sharing",
   },
   {
-    title: "Bigram Language Model for Name Generation",
-    highlightedWord: "Bigram LM",
+    title: "Neural Bigram Language Model for Name Generation",
+    highlightedWord: "Neural Bigram LM",
     thumbnailUrl: "/logos/bigram_logo.png",
     description:
-      "Built a character-level bigram model in PyTorch to generate novel names by preprocessing text, computing bigram probabilities, sampling new sequences, and evaluating performance with negative log-likelihood on a test set.",
+      "Implemented a character-level neural bigram model from scratch using PyTorch. The model uses one-hot encoding, a single linear layer, and cross-entropy loss to learn the probability distribution of the next character. Generates novel names by sampling from the learned distribution.",
     tools: [
-      "Python","PyTorch",
+      "Python", "PyTorch",
     ],
     skills: [
-      "Natural Language Processing (NLP)", "Language Modeling", "Probability & Statistics",
+      "Natural Language Processing", "Language Modeling", "Sequence Generation",
+      "Text Preprocessing", "Probability & Statistics", "Cross-Entropy Loss", "Neural Networks",
+    ],
+    githubUrl: "https://github.com/umer-saleem/neural-bigram-model.git",
+    demoUrl: "",
+  },
+  {
+    title: "Classical Bigram Language Model for Name Generation",
+    highlightedWord: "Classical Bigram LM",
+    thumbnailUrl: "/logos/bigram_logo.png",
+    description:
+      "Built a **classical character-level bigram model** in PyTorch without neural networks. Computes bigram probabilities directly from text counts, generates new sequences by sampling, and evaluates performance using negative log-likelihood on the test set.",
+    tools: [
+      "Python", "PyTorch",
+    ],
+    skills: [
+      "Natural Language Processing", "Language Modeling", "Probability & Statistics",
       "Sequence Generation", "Text Preprocessing", "Negative Log-Likelihood",
     ],
     githubUrl: "https://github.com/umer-saleem/bigramnamegeneration.git",
     demoUrl: "",
   },
 ];
+
 
 export default function Projects() {
   return (
