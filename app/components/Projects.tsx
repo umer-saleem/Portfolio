@@ -38,7 +38,7 @@ const projects = [
     highlightedWord: "Classical Bigram LM",
     thumbnailUrl: "/logos/bigram_logo.png",
     description:
-      "Built a **classical character-level bigram model** in PyTorch without neural networks. Computes bigram probabilities directly from text counts, generates new sequences by sampling, and evaluates performance using negative log-likelihood on the test set.",
+      "Developed a classical character-level bigram model in PyTorch to generate sequences from text-based probabilities and evaluate performance using negative log-likelihood.",
     tools: [
       "Python", "PyTorch",
     ],
