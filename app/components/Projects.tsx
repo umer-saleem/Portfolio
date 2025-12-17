@@ -19,7 +19,7 @@ const projects = [
   },
   {
     title: "Neural Bigram Language Model for Name Generation",
-    highlightedWord: "Neural Bigram LM",
+    highlightedWord: "",
     thumbnailUrl: "/logos/bigram.png",
     description:
       "Built a character-level neural bigram model in PyTorch to generate novel names by learning next-character probabilities.",
@@ -35,7 +35,7 @@ const projects = [
   },
   {
     title: "Classical Bigram Language Model for Name Generation",
-    highlightedWord: "Classical Bigram LM",
+    highlightedWord: "",
     thumbnailUrl: "/logos/bigram_logo.png",
     description:
       "Developed a classical character-level bigram model in PyTorch to generate sequences from text-based probabilities and evaluate performance using negative log-likelihood.",
