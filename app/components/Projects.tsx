@@ -22,7 +22,7 @@ const projects = [
     highlightedWord: "Neural Bigram LM",
     thumbnailUrl: "/logos/bigram.png",
     description:
-      "Implemented a character-level neural bigram model from scratch using PyTorch. The model uses one-hot encoding, a single linear layer, and cross-entropy loss to learn the probability distribution of the next character. Generates novel names by sampling from the learned distribution.",
+      "Built a character-level neural bigram model in PyTorch to generate novel names by learning next-character probabilities.",
     tools: [
       "Python", "PyTorch",
     ],
