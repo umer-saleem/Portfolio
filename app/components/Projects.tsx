@@ -20,7 +20,7 @@ const projects = [
   {
     title: "",
     highlightedWord: "Adversarial Natural Language Inference with RoBERTa-Large",
-    thumbnailUrl: "/logos/bigram_logo.png",
+    thumbnailUrl: "/logos/nlp.png",
     description:
       "Developed a reproducible end-to-end pipeline for multi-class natural language inference by fine-tuning RoBERTa-large on the adversarial ANLI dataset. The project emphasizes experiment tracking, macro-F1–based evaluation, and complete artifact logging, with optional Dockerized deployment for reproducibility.",
     tools: [
