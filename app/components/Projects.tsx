@@ -18,6 +18,22 @@ const projects = [
     demoUrl: "https://drive.google.com/file/d/1rDdgh_wSOelChDrzyxw3HYc7-7qrE1L9/view?usp=sharing",
   },
   {
+    title: "",
+    highlightedWord: "Adversarial Natural Language Inference with RoBERTa-Large",
+    thumbnailUrl: "/logos/bigram_logo.png",
+    description:
+      "Developed a reproducible end-to-end pipeline for multi-class natural language inference by fine-tuning RoBERTa-large on the adversarial ANLI dataset. The project emphasizes experiment tracking, macro-F1–based evaluation, and complete artifact logging, with optional Dockerized deployment for reproducibility.",
+    tools: [
+      "Python", "PyTorch","Docker","Hugging Face Transformers","Jupyter Notebook",
+    ],
+    skills: [
+      "Natural Language Processing","Transformer Fine-Tuning",
+      "Multi-Class Classification", "Adversarial Evaluation"
+    ],
+    githubUrl: "https://github.com/umer-saleem/anli-r2-finetuning.git",
+    demoUrl: "",
+  },
+  {
     title: "Neural Bigram Language Model for Name Generation",
     highlightedWord: "",
     thumbnailUrl: "/logos/bigram.png",
