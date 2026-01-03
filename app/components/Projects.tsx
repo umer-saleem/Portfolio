@@ -20,7 +20,7 @@ const projects = [
   {
   title: "Vision-Transformer-Based Video Captioning Framework",
   highlightedWord: "VideoLLaMA-Mini",
-  thumbnailUrl: "/logos/vlm.png",
+  thumbnailUrl: "/logos/vision_transformers.webp",
   description:
     "Designed and implemented a lightweight, CPU-friendly video understanding framework inspired by VideoLLaMA. The project focuses on understanding core modules of vision transformers for video-language modeling, including spatio-temporal visual encoding, cross-modal fusion via a Q-Former, and autoregressive text generation using a transformer decoder.",
   tools: [
