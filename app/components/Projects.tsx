@@ -20,7 +20,7 @@ const projects = [
   {
     title: "MiniGPT: From-Scratch Training & Evaluation on TinyStories",
     highlightedWord: "TinyStories-MiniGPT",
-    thumbnailUrl: "/logos/tinystories_minigpt.png",
+    thumbnailUrl: "/logos/chatgpt.jpg",
     description:
       "Implemented a character-level GPT-style transformer from scratch for generating creative short stories. The project emphasizes understanding transformer architecture including self-attention, multi-head attention, feed-forward blocks with residuals, positional embeddings, causal masking, and autoregressive text generation.",
     tools: [
