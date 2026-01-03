@@ -113,13 +113,13 @@ export default function Projects() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <div className="w-full aspect-video overflow-hidden rounded-lg mb-4 shadow-md hover:shadow-lg transition-shadow bg-gray-100">
-                    <img
-                      src={project.thumbnailUrl}
-                      alt={`${project.title} Thumbnail`}
-                      className="w-full h-full object-contain"
-                    />
-                  </div>
+                    <div className="w-full aspect-video overflow-hidden rounded-lg mb-4 shadow-md bg-gray-100 flex items-center justify-center">
+                      <img
+                        src={project.thumbnailUrl}
+                        alt={`${project.title} Thumbnail`}
+                        className="max-w-full max-h-full object-contain"
+                      />
+                    </div>
 
                   </a>
                 )}
