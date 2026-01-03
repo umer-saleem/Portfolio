@@ -4,7 +4,7 @@ const projects = [
   {
     title: "Citizen Science App for Water Quality Monitoring",
     highlightedWord: "AquaLens",
-    thumbnailUrl: "/logos/resized_image_500x500.jpg",
+    thumbnailUrl: "/logos/water_quality_monitoring.jpg",
     description:
       "Developed a Flutter-based citizen science mobile application that utilizes smartphone cameras and remote sensing techniques to estimate water quality parameters such as turbidity and suspended particulate matter in real time.",
     tools: [
