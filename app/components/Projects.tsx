@@ -18,6 +18,28 @@ const projects = [
     demoUrl: "https://drive.google.com/file/d/1rDdgh_wSOelChDrzyxw3HYc7-7qrE1L9/view?usp=sharing",
   },
   {
+    title: "MiniGPT: From-Scratch Training & Evaluation on TinyStories",
+    highlightedWord: "TinyStories-MiniGPT",
+    thumbnailUrl: "/logos/tinystories_minigpt.png",
+    description:
+      "Implemented a character-level GPT-style transformer from scratch for generating creative short stories. The project emphasizes understanding transformer architecture including self-attention, multi-head attention, feed-forward blocks with residuals, positional embeddings, causal masking, and autoregressive text generation.",
+    tools: [
+      "Python", "PyTorch", "HuggingFace Datasets",
+    ],
+    skills: [
+      "Transformer Architecture",
+      "Self-Attention & Multi-Head Attention",
+      "Feed-Forward Networks",
+      "Layer Normalization & Residual Connections",
+      "Character-Level Language Modeling",
+      "Causal Masking",
+      "Autoregressive Text Generation",
+      "Data Preprocessing",
+    ],
+    githubUrl: "https://github.com/umer-saleem/TinyStories-MiniGPT.git",
+    demoUrl: "",
+  },
+  {
   title: "Vision-Transformer-Based Video Captioning Framework",
   highlightedWord: "VideoLLaMA-Mini",
   thumbnailUrl: "/logos/vision_transformers.webp",
