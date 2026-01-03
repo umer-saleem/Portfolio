@@ -18,7 +18,7 @@ const projects = [
     demoUrl: "https://drive.google.com/file/d/1rDdgh_wSOelChDrzyxw3HYc7-7qrE1L9/view?usp=sharing",
   },
   {
-    title: "MiniGPT: From-Scratch Training & Evaluation on TinyStories",
+    title: "From-Scratch Training & Evaluation on TinyStories",
     highlightedWord: "TinyStories-MiniGPT",
     thumbnailUrl: "/logos/chatgpt.jpg",
     description:
