@@ -18,6 +18,27 @@ const projects = [
     demoUrl: "https://drive.google.com/file/d/1rDdgh_wSOelChDrzyxw3HYc7-7qrE1L9/view?usp=sharing",
   },
   {
+  title: "Vision-Transformer-Based Video Captioning Framework",
+  highlightedWord: "VideoLLaMA-Mini",
+  thumbnailUrl: "/logos/vlm.png",
+  description:
+    "Designed and implemented a lightweight, CPU-friendly video understanding framework inspired by VideoLLaMA. The project focuses on understanding core modules of vision transformers for video-language modeling, including spatio-temporal visual encoding, cross-modal fusion via a Q-Former, and autoregressive text generation using a transformer decoder.",
+  tools: [
+    "Python", "PyTorch", "Hugging Face Transformers", "OpenCV",
+  ],
+  skills: [
+    "Vision Transformers",
+    "Video Understanding",
+    "Multimodal Learning",
+    "Cross-Modal Attention",
+    "Q-Former Architecture",
+    "Autoregressive Decoding",
+    "Temporal Modeling",
+  ],
+  githubUrl: "https://github.com/umer-saleem/videollama-mini.git",
+  demoUrl: "",
+  },
+  {
     title: "",
     highlightedWord: "Adversarial Natural Language Inference with RoBERTa-Large",
     thumbnailUrl: "/logos/nlp.png",
