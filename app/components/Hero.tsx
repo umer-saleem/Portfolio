@@ -31,7 +31,7 @@ export default function Hero()
 
       {/* Description */}
       <p className="text-base md:text-lg text-gray-500 max-w-2xl">
-        I am a Data Scientist and AI Engineer based in the United States, turning complex data into actionable insights.
+        I build intelligent systems across Generative AI, Computer Vision, and Vision-Language Models, with a focus on multimodal AI and real-world applications.
       </p>
 
       {/* Optional "View my work" button */}
