@@ -9,7 +9,7 @@ const experiences = [
     descriptions: [
       "Developed a scalable synthetic data pipeline using Flux 2.0 Pro and Gemini Nano Banana to generate training and evaluation data for VLMs focused on human gestures, body postures, and facial expressions for robotic perception.",
       "Built coding agents that evaluated synthetic data quality and iteratively optimized generation prompts, improving the reliability and consistency of VLM training datasets.",
-      "Built <strong>Fabrica</strong>, an agentic data-generation platform that used YOLO and CLIP to source and filter indoor scenes with people, then generated context-specific data for robotic perception and behavior understanding.",
+      <>Built <strong>Fabrica</strong>, an agentic data-generation platform that used YOLO and CLIP to source and filter indoor scenes with people, then generated context-specific data for robotic perception and behavior understanding.</>,
       "Developed camera-aware synthetic datasets and a real-world robot-camera data collection pipeline to benchmark synthetic-to-real transfer across viewpoints, environments, and human behaviors.",
       "Built agentic social-scenario and video-generation workflows with Seedance 2.5 and Codex to create diverse human-robot interaction data for understanding human actions, social cues, and contextual behavior.",
     ],
