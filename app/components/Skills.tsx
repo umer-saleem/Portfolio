@@ -1,7 +1,7 @@
 // src/app/components/Skills.tsx
 const skillCategories = [
   {
-    title: "Programming & Databases",
+    title: "Programming and Databases",
     icon: "",
     skills: [
       { name: 'Python', icon: '/logos/python.png', fontSize: 20 },
@@ -17,19 +17,38 @@ const skillCategories = [
     ],
   },
   {
-    title: "AI & Machine Learning",
-    icon: "",
-    skills: [
-      { name: 'TensorFlow', icon: '/logos/tensorflow.png', fontSize: 18 },
-      { name: 'PyTorch', icon: '/logos/pytorch.png', fontSize: 18 },
-      { name: 'Keras', icon: '/logos/keras.png', fontSize: 18 },
-      { name: 'LangGraph', icon: '/logos/langgraph.png', fontSize: 18 },
-      { name: 'LangChain', icon: '/logos/langchain.png', fontSize: 18 },
-      { name: 'Scikit-learn', icon: '/logos/scikitlearn.png', fontSize: 18 },
-      { name: 'OpenCV', icon: '/logos/opencv.png', fontSize: 18 },
-      { name: 'HuggingFace', icon: '/logos/huggingface.png', fontSize: 18 },
-      { name: 'LLMs', icon: '/logos/llm.png', fontSize: 18 },
-    ],
+  title: "AI and Machine Learning",
+  icon: "",
+  skills: [
+    { name: 'TensorFlow', icon: '/logos/tensorflow.png', fontSize: 18 },
+    { name: 'PyTorch', icon: '/logos/pytorch.png', fontSize: 18 },
+    { name: 'Keras', icon: '/logos/keras.png', fontSize: 18 },
+    { name: 'LangGraph', icon: '/logos/langgraph.png', fontSize: 18 },
+    { name: 'LangChain', icon: '/logos/langchain.png', fontSize: 18 },
+    { name: 'Scikit-learn', icon: '/logos/scikitlearn.png', fontSize: 18 },
+    { name: 'OpenCV', icon: '/logos/opencv.png', fontSize: 18 },
+    { name: 'HuggingFace', icon: '/logos/huggingface.png', fontSize: 18 },
+    { name: 'LLMs', icon: '/logos/llm.png', fontSize: 18 },
+    { name: 'VLMs', icon: '/logos/llm.png', fontSize: 18 },
+    { name: 'YOLO', icon: '/logos/yolo.png', fontSize: 18 },
+    { name: 'CLIP', icon: '/logos/clip.png', fontSize: 18 },
+    { name: 'Generative AI', icon: '/logos/llm.png', fontSize: 18 },
+    { name: 'Agentic AI', icon: '/logos/langgraph.png', fontSize: 18 },
+  ],
+  },
+  {
+  title: "Computer Vision and Multimodal AI",
+  icon: "",
+  skills: [
+    { name: 'OpenCV', icon: '/logos/opencv.png', fontSize: 18 },
+    { name: 'YOLO', icon: '/logos/yolo.png', fontSize: 18 },
+    { name: 'CLIP', icon: '/logos/clip.png', fontSize: 18 },
+    { name: 'LLMs', icon: '/logos/llm.png', fontSize: 18 },
+    { name: 'VLMs', icon: '/logos/llm.png', fontSize: 18 },
+    { name: 'Generative AI', icon: '/logos/llm.png', fontSize: 18 },
+    { name: 'Synthetic Data', icon: '/logos/llm.png', fontSize: 18 },
+    { name: 'Agentic AI', icon: '/logos/langgraph.png', fontSize: 18 },
+  ],
   },
   {
     title: "Data Visualization",
@@ -43,7 +62,7 @@ const skillCategories = [
     ],
   },
   {
-    title: "Cloud & Big Data",
+    title: "Cloud and Big Data",
     icon: "",
     skills: [
       { name: 'AWS Lambda', icon: '/logos/aws.png', fontSize: 18 },
