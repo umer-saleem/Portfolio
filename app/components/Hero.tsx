@@ -26,7 +26,7 @@ export default function Hero()
 
       {/* Title / Role */}
       <h2 className="text-xl md:text-3xl text-gray-600 mb-6">
-        AI Engineer | ML Engineer | Generative AI ML | Computer Vision
+        AI Engineer | ML Engineer | Generative AI | Computer Vision
       </h2>
 
       {/* Description */}
